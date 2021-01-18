@@ -1,18 +1,18 @@
-#ask name
+#ask name of user
 name = input("Hi, I'm Swit, python's bot. What's your name? " )
 print()
 
-#greets
+#greets the user
 print("hello,", name,", nice to meet you!")
 print("I want to become your friend", name)
 print()
 
-#ask age
+#ask the age of the user
 age = input("How old are you? ")
 print("Oh nice, you are", age, "years old! You're old enough to play my game!")
 print()
 
-#ask to play the game
+#ask if the user wants to play the game
 answer = input("Do you want to play? yes or no? " )
 
 if answer == "no":
@@ -54,7 +54,7 @@ def main():
 main()
 print()
 
-#ask if he won
+#ask the user if he won
 win = input("so did you win or no? " )
 print
 
@@ -64,7 +64,7 @@ if win == "no":
 else:
     print("Awesome! I knew I should've increased the range of difficulty! ")
 
-#ask if the user wants to play again
+#ask the user if he wants to play again
 answer = input("Do you want to play with increase difficulty? yes or no? " )
 
 if answer == "no":
@@ -85,7 +85,7 @@ else:
     print("ok then, let's startttt")
 
 
-#game with increased difficulty
+#the game with increased difficulty, Lvl2
 import random
 
 def main():
@@ -104,7 +104,7 @@ def main():
 main()
 print()
 
-#ask if he won
+#ask the user if he won
 win = input("so did you win this time with increased difficulty or no? " )
 print
 
@@ -132,7 +132,7 @@ if final == "no":
 else:
     print("let's go, the final round :)")
 
-#final level
+#The final level
 import random
 
 def main():
@@ -149,7 +149,7 @@ def main():
             return
 main()
 
-#last question
+#Ask the user one last question
 last = input("did you win the last round? ")
 print()
 if last == "no":
