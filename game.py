@@ -1,5 +1,5 @@
 #ask name of user
-name = input("Hi, I'm Swit, python's bot. What's your name? " )
+name = input("Hi, I'm Swit, Might's bot. What's your name? " )
 print()
 
 #greets the user
